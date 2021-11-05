@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root p {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(245, 75%, 52%);
+}
+
+main {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url('images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  background-color: white;
+  max-width: 375px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.card-top img {
+  width: 100%;
+}
+
+.card-summary {
+  margin: 40px 40px 10px 40px;
+  line-height: 1.8rem;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+}
+
+.card-summary .cat {
+  display: block;
+  color: hsl(224, 23%, 55%);
+  font-size: 1em;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card-plan {
+  background-color: hsl(225, 100%, 98%);
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 15px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cont-iconprice {
+  display: flex;
+}
+
+.cont-iconprice img {
+  margin-right: 20px;
+}
+
+.plan {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  font-size: 16px;
+}
+
+.ct {
+  font-weight: 500;
+  font-size: 16px;
+  display: block;
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 125px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.button-one {
+  margin-right: 40px;
+  margin-left: 40px;
+  padding: 12px 10px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  box-shadow: 0 0 0.1em hsl(245, 75%, 52%);
+}
+
+.button-two {
+  margin-right: 80px;
+  margin-left: 80px;
+  background-color: none;
+  border: none;
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  margin-top: 25px;
+}
+.attribution,
+.attribution .a {
+  color: white;
+}
